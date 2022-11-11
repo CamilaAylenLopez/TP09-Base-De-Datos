@@ -1,0 +1,104 @@
+{
+    "restaurantes" : [
+    {
+       
+        "nombre":"Alo's Bistro",
+        "añoDeApertura": 2014,
+        "ubicacion": [{"latitud": -34.479335463103446}, {"longitud": -58.57092974639777}],
+        "dueño": "Alejandro Feraud",
+        "logo": "img",  
+        "menuPrincipal":[  
+          {"primerPlato":"tararira curada",  
+          "precioUnitario": 5047},
+          {"platoPrincipal": "crudo de llama",  
+          "precioUnitario": 1}, 
+          {"postre": "flan",  
+          "precioUnitario": 1}]
+ 
+    },
+    {
+       
+        "nombre":"hola",
+        "añoDeApertura": 2001,
+        "ubicacion": [{"latitud": 19}, {"longitud": 20}],
+        "dueño": "juan",
+        "logo": "img",  
+        "menuPrincipal":[  
+          {"primerPlato":"a",  
+          "precioUnitario": 1},
+          {"platoPrincipal": "b",  
+          "precioUnitario": 1}, 
+          {"postre": "c",  
+          "precioUnitario": 1}]
+ 
+    },
+    {
+       
+        "nombre":"hola",
+        "añoDeApertura": 2001,
+        "ubicacion": [{"latitud": 19}, {"longitud": 20}],
+        "dueño": "juan",
+        "logo": "img",  
+        "menuPrincipal":[  
+          {"primerPlato":"a",  
+          "precioUnitario": 1},
+          {"platoPrincipal": "b",  
+          "precioUnitario": 1}, 
+          {"postre": "c",  
+          "precioUnitario": 1}]
+ 
+    },
+    {
+       
+        "nombre":"hola",
+        "añoDeApertura": 2001,
+        "ubicacion": [{"latitud": 19}, {"longitud": 20}],
+        "dueño": "juan",
+        "logo": "img",  
+        "menuPrincipal":[  
+          {"primerPlato":"a",  
+          "precioUnitario": 1},
+          {"platoPrincipal": "b",  
+          "precioUnitario": 1}, 
+          {"postre": "c",  
+          "precioUnitario": 1}]
+ 
+    },
+    {
+       
+        "nombre":"hola",
+        "añoDeApertura": 2001,
+        "ubicacion": [{"latitud": 19}, {"longitud": 20}],
+        "dueño": "juan",
+        "logo": "img",  
+        "menuPrincipal":[  
+          {"primerPlato":"a",  
+          "precioUnitario": 1},
+          {"platoPrincipal": "b",  
+          "precioUnitario": 1}, 
+          {"postre": "c",  
+          "precioUnitario": 1}]
+    }
+    ],
+
+    "reseñas": [
+    {   
+        "nombreDeUsuario": "hola",
+        "valoracion": 4.5,
+        "descripcion": "es muy bueno",
+        "cantDeLikes": 200 
+    },
+    {   
+        "nombreDeUsuario": "hola",
+        "valoracion": 4.5,
+        "descripcion": "es muy bueno",
+        "cantDeLikes": 200 
+    },
+    {   
+        "nombreDeUsuario": "hola",
+        "valoracion": 4.5,
+        "descripcion": "es muy bueno",
+        "cantDeLikes": 200 
+    }]
+}
+    

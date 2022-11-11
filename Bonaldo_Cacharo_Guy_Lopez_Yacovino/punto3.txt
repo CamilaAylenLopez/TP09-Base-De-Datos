@@ -1,0 +1,7 @@
+Respondé: si tuvieras que mostrar un mapa con los mejores 5 restaurantes valorados en una app cercanos a tu ubicación actual, 
+¿qué campos deberías consultar de tu modelo de datos y por qué?
+
+Respuesta: En ese escenario deberíamos consultar del restaurante el nombre y ubicación; mientras que de las reseñas la valoración 
+y cantidad de likes. Debemos consultar estos campos, ya que con la ubicación uno puede ver a qué distancia de donde está se encuentra; 
+a partir de las reseñas, su valoración y la cantidad de likes podemos ver si este sitio es del TOP 5 como figura y comprobar a través 
+de la experiencia de otros usuarios.
