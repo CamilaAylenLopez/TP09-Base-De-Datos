@@ -9,96 +9,96 @@
         "logo": "img",  
         "menuPrincipal":[  
           {"primerPlato":"tararira curada",  
-          "precioUnitario": 5047},
+          "precioUnitario": 5047.00},
           {"platoPrincipal": "crudo de llama",  
-          "precioUnitario": 1}, 
+          "precioUnitario": 5760.60}, 
+          {"postre": "mousse de chocolate",  
+          "precioUnitario": 1263.05}]
+ 
+    },
+    {
+       
+        "nombre":"NARDA COMEDOR",
+        "añoDeApertura": 2017,
+        "ubicacion": [{"latitud": -34.553033184927976}, {"longitud": -58.43664350084434}],
+        "dueño": "Narda Lepes",
+        "logo": "img",  
+        "menuPrincipal":[  
+          {"primerPlato":"Ensalada de Verdes, Nueces y Kale",  
+          "precioUnitario": 1687.00},
+          {"platoPrincipal": "Bowl de Arroz con Tofu",  
+          "precioUnitario": 2187.00}, 
+          {"postre": "tiramisú",  
+          "precioUnitario": 1562.00}]
+ 
+    },
+    {
+       
+        "nombre":"CORTE COMEDOR",
+        "añoDeApertura": 2001,
+        "ubicacion": [{"latitud": 19}, {"longitud": 20}],
+        "dueño": "Santiago Garat",
+        "logo": "img",  
+        "menuPrincipal":[  
+          {"primerPlato":"solomillo",  
+          "precioUnitario": 1200.20},
+          {"platoPrincipal": "Picante de Cordero Merguez",  
+          "precioUnitario": 2372.20}, 
           {"postre": "flan",  
-          "precioUnitario": 1}]
+          "precioUnitario": 1245.80}]
  
     },
     {
        
-        "nombre":"hola",
-        "añoDeApertura": 2001,
-        "ubicacion": [{"latitud": 19}, {"longitud": 20}],
-        "dueño": "juan",
+        "nombre":"ANAFE",
+        "añoDeApertura": 2021,
+        "ubicacion": [{"latitud": -34.573730647807416}, {"longitud": -58.45897518198113}],
+        "dueño": "Mica Najmanovich",
         "logo": "img",  
         "menuPrincipal":[  
-          {"primerPlato":"a",  
-          "precioUnitario": 1},
-          {"platoPrincipal": "b",  
-          "precioUnitario": 1}, 
-          {"postre": "c",  
-          "precioUnitario": 1}]
+          {"primerPlato":"yaroas",  
+          "precioUnitario": 2343.40},
+          {"platoPrincipal": "mofongo",  
+          "precioUnitario": 4294.30}, 
+          {"postre": "torta",  
+          "precioUnitario": 2151.49}]
  
     },
     {
        
-        "nombre":"hola",
-        "añoDeApertura": 2001,
-        "ubicacion": [{"latitud": 19}, {"longitud": 20}],
-        "dueño": "juan",
+        "nombre":"CASA CAVIA",
+        "añoDeApertura": 2015,
+        "ubicacion": [{"latitud": -34.57733192340519}, {"longitud": -58.40722193965305}],
+        "dueño": "Guadalupe García Mosqueda",
         "logo": "img",  
         "menuPrincipal":[  
-          {"primerPlato":"a",  
-          "precioUnitario": 1},
-          {"platoPrincipal": "b",  
-          "precioUnitario": 1}, 
-          {"postre": "c",  
-          "precioUnitario": 1}]
- 
-    },
-    {
-       
-        "nombre":"hola",
-        "añoDeApertura": 2001,
-        "ubicacion": [{"latitud": 19}, {"longitud": 20}],
-        "dueño": "juan",
-        "logo": "img",  
-        "menuPrincipal":[  
-          {"primerPlato":"a",  
-          "precioUnitario": 1},
-          {"platoPrincipal": "b",  
-          "precioUnitario": 1}, 
-          {"postre": "c",  
-          "precioUnitario": 1}]
- 
-    },
-    {
-       
-        "nombre":"hola",
-        "añoDeApertura": 2001,
-        "ubicacion": [{"latitud": 19}, {"longitud": 20}],
-        "dueño": "juan",
-        "logo": "img",  
-        "menuPrincipal":[  
-          {"primerPlato":"a",  
-          "precioUnitario": 1},
-          {"platoPrincipal": "b",  
-          "precioUnitario": 1}, 
-          {"postre": "c",  
-          "precioUnitario": 1}]
+          {"primerPlato":"Calabaza asada con shiso y alioli de ajos confitados",  
+          "precioUnitario": 4400.00},
+          {"platoPrincipal": "Pesca del día, cremoso de alubias y kale tostado",  
+          "precioUnitario": 6000.00}, 
+          {"postre": "Crema de coco, frutas de estación y garrapiñada de escamas de coco",  
+          "precioUnitario": 1800.00}]
     }
     ],
 
     "reseñas": [
     {   
-        "nombreDeUsuario": "hola",
+        "nombreDeUsuario": "biancagiulia",
         "valoracion": 4.5,
+        "descripcion": "La ambientación es linda y los platos ricos",
+        "cantDeLikes": 207 
+    },
+    {   
+        "nombreDeUsuario": "villaretomas",
+        "valoracion": 4.0,
         "descripcion": "es muy bueno",
-        "cantDeLikes": 200 
+        "cantDeLikes": 372 
     },
     {   
         "nombreDeUsuario": "hola",
         "valoracion": 4.5,
         "descripcion": "es muy bueno",
-        "cantDeLikes": 200 
-    },
-    {   
-        "nombreDeUsuario": "hola",
-        "valoracion": 4.5,
-        "descripcion": "es muy bueno",
-        "cantDeLikes": 200 
+        "cantDeLikes": 220 
     }]
 }
     
