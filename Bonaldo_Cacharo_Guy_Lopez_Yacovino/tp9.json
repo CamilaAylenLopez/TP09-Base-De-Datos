@@ -113,23 +113,23 @@
     {   
         "idRestaurante": 3,
         "nombreDeUsuario": "cicoignacio",
-        "valoracion": 5.0,
-        "descripcion": "muy buena atención",
-        "cantDeLikes": 220 
+        "valoracion": 1.0,
+        "descripcion": "vi una cucaracha saliendo de la cocina",
+        "cantDeLikes": 20
     },
     {   
         "idRestaurante": 3,
         "nombreDeUsuario": "biancagiulia",
         "valoracion": 4.2,
         "descripcion": "La ambientación es linda y los platos ricos",
-        "cantDeLikes": 207 
+        "cantDeLikes": 217 
     },
     {   
         "idRestaurante": 4,
         "nombreDeUsuario": "villaretomas",
         "valoracion": 3.5,
         "descripcion": "tardaron en atendernos y no venía la comida",
-        "cantDeLikes": 372 
+        "cantDeLikes": 379 
     },
     {   
         "idRestaurante": 4,
@@ -143,7 +143,7 @@
         "nombreDeUsuario": "restofan",
         "valoracion": 4.0,
         "descripcion": "muy buen tiramisú",
-        "cantDeLikes": 372 
+        "cantDeLikes": 100 
     },
     {   
         "idRestaurante": 5,
@@ -157,32 +157,32 @@
         "nombreDeUsuario": "soficacharo",
         "valoracion": 4.0,
         "descripcion": "es muy bueno",
-        "cantDeLikes": 372 
+        "cantDeLikes": 30 
     },
     {   
         "idRestaurante": 5,
         "nombreDeUsuario": "pepitolospalotes",
         "valoracion": 4.0,
         "descripcion": "el precio lo vale",
-        "cantDeLikes": 372 
+        "cantDeLikes": 301
     },
     {   "idRestaurante": 1,
         "nombreDeUsuario": "sergiopanque",
         "valoracion": 4.5,
         "descripcion": "es muy bueno",
-        "cantDeLikes": 220 
+        "cantDeLikes": 230 
     },
     {   "idRestaurante": 1,
         "nombreDeUsuario": "tannogio",
         "valoracion": 4.5,
         "descripcion": "excelente atención",
-        "cantDeLikes": 220 
+        "cantDeLikes": 120
     },
     {   "idRestaurante": 1,
         "nombreDeUsuario": "mariajosehernandez",
         "valoracion": 4.5,
         "descripcion": "está para volver, lo recomiendo",
-        "cantDeLikes": 220 
+        "cantDeLikes": 232 
     }]
 }
     
