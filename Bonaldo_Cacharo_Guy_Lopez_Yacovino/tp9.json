@@ -1,12 +1,12 @@
 {
     "restaurantes" : [
-    {
-       
+    {     
         "nombre":"Alo's Bistro",
         "añoDeApertura": 2014,
         "ubicacion": [{"latitud": -34.479335463103446}, {"longitud": -58.57092974639777}],
         "dueño": "Alejandro Feraud",
-        "logo": "img",  
+        "logo": "img", 
+        "id": 1, 
         "menuPrincipal":[  
           {"primerPlato":"tararira curada",  
           "precioUnitario": 5047.00},
@@ -16,13 +16,13 @@
           "precioUnitario": 1263.05}]
  
     },
-    {
-       
+    {      
         "nombre":"NARDA COMEDOR",
         "añoDeApertura": 2017,
         "ubicacion": [{"latitud": -34.553033184927976}, {"longitud": -58.43664350084434}],
         "dueño": "Narda Lepes",
-        "logo": "img",  
+        "logo": "img", 
+        "id": 2, 
         "menuPrincipal":[  
           {"primerPlato":"Ensalada de Verdes, Nueces y Kale",  
           "precioUnitario": 1687.00},
@@ -32,13 +32,13 @@
           "precioUnitario": 1562.00}]
  
     },
-    {
-       
+    {      
         "nombre":"CORTE COMEDOR",
         "añoDeApertura": 2001,
         "ubicacion": [{"latitud": 19}, {"longitud": 20}],
         "dueño": "Santiago Garat",
-        "logo": "img",  
+        "logo": "img", 
+        "id": 3, 
         "menuPrincipal":[  
           {"primerPlato":"solomillo",  
           "precioUnitario": 1200.20},
@@ -49,12 +49,12 @@
  
     },
     {
-       
         "nombre":"ANAFE",
         "añoDeApertura": 2021,
         "ubicacion": [{"latitud": -34.573730647807416}, {"longitud": -58.45897518198113}],
         "dueño": "Mica Najmanovich",
-        "logo": "img",  
+        "logo": "img", 
+        "id": 4, 
         "menuPrincipal":[  
           {"primerPlato":"yaroas",  
           "precioUnitario": 2343.40},
@@ -65,12 +65,12 @@
  
     },
     {
-       
         "nombre":"CASA CAVIA",
         "añoDeApertura": 2015,
         "ubicacion": [{"latitud": -34.57733192340519}, {"longitud": -58.40722193965305}],
         "dueño": "Guadalupe García Mosqueda",
-        "logo": "img",  
+        "logo": "img", 
+        "id": 5, 
         "menuPrincipal":[  
           {"primerPlato":"Calabaza asada con shiso y alioli de ajos confitados",  
           "precioUnitario": 4400.00},
@@ -83,21 +83,105 @@
 
     "reseñas": [
     {   
+        "idRestaurante": 2,
         "nombreDeUsuario": "biancagiulia",
         "valoracion": 4.5,
         "descripcion": "La ambientación es linda y los platos ricos",
         "cantDeLikes": 207 
     },
-    {   
+    {   "idRestaurante": 2,
         "nombreDeUsuario": "villaretomas",
         "valoracion": 4.0,
         "descripcion": "es muy bueno",
         "cantDeLikes": 372 
     },
     {   
-        "nombreDeUsuario": "hola",
+        "idRestaurante": 2,
+        "nombreDeUsuario": "kiarafit",
+        "valoracion": 4.5,
+        "descripcion": "La pasta (rellena de berenjena y con pesto) es deliciosa.",
+        "cantDeLikes": 220 
+    }
+    ,
+    {   
+        "idRestaurante": 3,
+        "nombreDeUsuario": "carlitoslopes",
+        "valoracion": 4.5,
+        "descripcion": "Tienen un concepto interesante. El lugar también está bueno. En cuanto la comida te recomiendan pedir 5 platos y ellos los van sacando de frío a caliente.",
+        "cantDeLikes": 372 
+    },
+    {   
+        "idRestaurante": 3,
+        "nombreDeUsuario": "cicoignacio",
+        "valoracion": 5.0,
+        "descripcion": "muy buena atención",
+        "cantDeLikes": 220 
+    },
+    {   
+        "idRestaurante": 3,
+        "nombreDeUsuario": "biancagiulia",
+        "valoracion": 4.2,
+        "descripcion": "La ambientación es linda y los platos ricos",
+        "cantDeLikes": 207 
+    },
+    {   
+        "idRestaurante": 4,
+        "nombreDeUsuario": "villaretomas",
+        "valoracion": 3.5,
+        "descripcion": "tardaron en atendernos y no venía la comida",
+        "cantDeLikes": 372 
+    },
+    {   
+        "idRestaurante": 4,
+        "nombreDeUsuario": "juancarlos",
+        "valoracion": 4.5,
+        "descripcion": "los mejores ribs",
+        "cantDeLikes": 220 
+    },
+    {   
+        "idRestaurante": 4,
+        "nombreDeUsuario": "restofan",
+        "valoracion": 4.0,
+        "descripcion": "muy buen tiramisú",
+        "cantDeLikes": 372 
+    },
+    {   
+        "idRestaurante": 5,
+        "nombreDeUsuario": "guadareseñas",
+        "valoracion": 4.0,
+        "descripcion": "Todo muy rico y elaborado, nuestro preferido fue el tartar.",
+        "cantDeLikes": 372 
+    },
+    {   
+        "idRestaurante": 5,
+        "nombreDeUsuario": "soficacharo",
+        "valoracion": 4.0,
+        "descripcion": "es muy bueno",
+        "cantDeLikes": 372 
+    },
+    {   
+        "idRestaurante": 5,
+        "nombreDeUsuario": "pepitolospalotes",
+        "valoracion": 4.0,
+        "descripcion": "el precio lo vale",
+        "cantDeLikes": 372 
+    },
+    {   "idRestaurante": 1,
+        "nombreDeUsuario": "sergiopanque",
         "valoracion": 4.5,
         "descripcion": "es muy bueno",
+        "cantDeLikes": 220 
+    },
+    {   "idRestaurante": 1,
+        "nombreDeUsuario": "tannogio",
+        "valoracion": 4.5,
+        "descripcion": "excelente atención",
+        "cantDeLikes": 220 
+    },
+    {   "idRestaurante": 1,
+        "nombreDeUsuario": "mariajosehernandez",
+        "valoracion": 4.5,
+        "descripcion": "está para volver, lo recomiendo",
         "cantDeLikes": 220 
     }]
 }
