@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TP09</title>
+</head>
+<body>
+    <h1>TOP 5 Mejores Restaurantes en Buenos Aires</h1>   
+    <ul id="lista"> </ul>
+
+    <script>
+
+         /*********************JSON COMPLEJO *******************/   
+        fetch('tp9.json')
+        .then((response) => response.json())
+        //acá tenemos que recorrer un array de objetos
+        .then((json) => {
+            //console.log(json)
+
+                for (let i = 0; i < json.restaurantes.length; i++) {
+                        //console.log(json.restaurantes[i].nombre);
+                        const li = document.createElement('li')
+                        li.innerHTML= json.restaurantes[i].nombre
+
+                        console.log(json.restaurantes[i].ubicacion[0].latitud);
+                        console.log(json.restaurantes[i].ubicacion[0].longitud);
+                        const la = document.createElement('la')
+                        const le = document.createElement('le')
+                        la.innerHTML= json.restaurantes[i].ubicacion[0].latitud
+                        le.innerHTML= json.restaurantes[i].ubicacion[0].longitud
+
+                        document.getElementById("lista").appendChild(li)
+                        document.getElementById("lista").appendChild(la)
+                        document.getElementById("lista").appendChild(le)
+                    }
+                },
+
+                
+            );
+
+    </script>
+</body>
+</html>
